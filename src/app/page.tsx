@@ -1,5 +1,6 @@
 import value from '../data.js' 
 with { turbopackLoader: 'string-replace-loader', turbopackLoaderOptions: '{"search":"PLACEHOLDER","replace":"replaced value"}' }
+
 import Navbar from "../
   components/Navbar";
     
