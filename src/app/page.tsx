@@ -1,5 +1,9 @@
-import value from '../data.js' 
-with { turbopackLoader: 'string-replace-loader', turbopackLoaderOptions: '{"search":"PLACEHOLDER","replace":"replaced value"}' }
+const path = require('path')
+module.exports = {
+  turbopack: {
+    root: path.join(__dirname, '..'),
+  },
+}
 
 import Navbar from "../
   components/Navbar";
