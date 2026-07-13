@@ -1,4 +1,7 @@
-import {
+import Navbar from "../
+  components/Navbar";
+    
+  import {
   Battery,
   Brain,
   Car,
@@ -21,7 +24,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       <section className="max-w-6xl mx-auto px-6 py-16">
-
+<Navbar />
         <h1 className="text-6xl font-bold text-center">
           AutoVision AI
         </h1>
