@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between py-6">
+   <nav className="sticky top-0 z-50 backdrop-blur-xl bg-black/60 border-b border-zinc-800">
       <div className="text-2xl font-bold tracking-tight">
         <span className="text-white">AutoVision</span>{" "}
         <span className="text-orange-500">AI</span>
